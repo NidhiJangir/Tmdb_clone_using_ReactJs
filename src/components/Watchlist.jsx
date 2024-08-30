@@ -57,9 +57,9 @@ function Watchlist({watchlist,setWatchList,handleRemoveFromWatchlist} ) {
 
   return (
     <>
-<div className='flex justify-center flex-wrap m-4 cursor-pointer'>
+<div className='flex justify-center flex-wrap m-4  cursor-pointer'>
   {geneList.map((genre)=>{
-    return <div onClick={()=>handleFilter(genre)} className={ currGenre==genre ?'flex justify-center bg-blue-400 h-[3rem] w-[9rem] rounded-xl text-white font-bold items-center mx-4': 'flex justify-center bg-gray-300 h-[3rem] w-[9rem] rounded-xl text-white font-bold items-center mx-4' }>
+    return <div onClick={()=>handleFilter(genre)} className={ currGenre==genre ?'flex justify-center bg-blue-900 h-[3rem] w-[9rem] rounded-xl text-white font-bold items-center mx-4 my-1': 'flex justify-center my-1 bg-gray-500 h-[3rem] w-[9rem] rounded-xl text-white font-bold items-center mx-4' }>
     {genre}
   </div>
 
@@ -68,10 +68,10 @@ function Watchlist({watchlist,setWatchList,handleRemoveFromWatchlist} ) {
 </div>
 
     <div className='flex justify-center my-4'>
-        <input onChange={handleSearch} value={search} type="text" className='h-[3rem] w-[18rem] bg-gray-200 outline-none px-4' placeholder='Search Movie'/> 
+        <input onChange={handleSearch} value={search} type="text" className='h-[3rem] w-[18rem] bg-gray-900 outline-none px-4' placeholder='Search Movie'/> 
     </div>
-    <div className=' overflow-hidden rounded-lg border border-gray-200 m-8'>
-<table className='w-full text-gray-500 text-center cursor-pointer'>
+    <div className=' overflow-hidden rounded-lg border border-gray-400 m-8'>
+<table className='w-full text-gray-700 text-center cursor-pointer'>
   <thead className='border-b-2'>
     <tr>
       <th>Name</th>

@@ -31,7 +31,7 @@ function Movies({handleAddToWatchlist,handleRemoveFromWatchlist,watchlist}){
   return (
     
     <div className='p-3'>
-      <div className='text-2xl m-10 font-bold text-center '>
+      <div className='text-3xl m-10 font-bold text-center '>
         Trending Movies
       </div>
       <div className='flex flex-row flex-wrap justify-around gap-8'>

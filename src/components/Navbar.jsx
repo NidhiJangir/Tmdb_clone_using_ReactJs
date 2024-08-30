@@ -9,8 +9,8 @@ const Navbar = () => {
     
     <div className='flex border space-x-8 items-center pl-3 py-4'>
         <img className="w-[50px]" src={Logo} alt="" />
-        <Link className='text-blue-500 text-3xl font-bold' to="/">Home</Link>
-        <Link className='text-blue-500 text-3xl font-bold' to="/watchlist">Watchlist</Link>
+        <Link className='text-blue-900 text-3xl font-bold' to="/">Home</Link>
+        <Link className='text-blue-900 text-3xl font-bold' to="/watchlist">Watchlist</Link>
         
     </div>
    

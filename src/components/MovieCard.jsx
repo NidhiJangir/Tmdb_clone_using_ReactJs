@@ -21,7 +21,7 @@ function MovieCard({poster_path, name,movieObj, handleAddToWatchlist, handleRemo
  &#128525;
   </div>)}
 
-<div className='text-white text-xl w-full text-center p-2 bg-gray-900/60 '>
+<div className='text-white text-xl w-full text-center p-2 bg-gray-950/60 '>
   {name}
   </div>
     </div>
